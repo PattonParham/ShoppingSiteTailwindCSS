@@ -1,0 +1,74 @@
+.Navbar{
+    background-color: grey;
+    background-image: url("../Images/upscaledslatenav.png");
+    height: 100px;
+    margin: 0px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: goldenrod;
+}
+
+.navlinks{
+    margin-left: 1200px;
+
+}
+
+body{
+    margin: 0;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+@media only screen and (max-width: 1550px){
+.navlinks{
+    margin-left: 1000px;
+}
+}
+
+@media only screen and (max-width: 1350px){
+.navlinks{
+    margin-left: 800px;
+}
+}
+
+@media only screen and (max-width: 1150px){
+.navlinks{
+    margin-left: 600px;
+}
+}
+@media only screen and (max-width: 1024px){
+.navlinks{
+    margin-left: 500px;
+}
+}
+@media only screen and (max-width: 900px){
+.navlinks{
+    margin-left: 300px;
+}
+}
+@media only screen and (max-width: 768px){
+.navlinks{
+
+}
+}
+@media only screen and (max-width: 414px){
+.navlinks{
+
+}
+}
+@media only screen and (max-width: 411px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
+@media only screen and (max-width: 360px){
+
+}
+@media only screen and (max-width: 320px){
+
+}

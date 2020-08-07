@@ -1,0 +1,23 @@
+.Upload{
+
+}
+.Messages{
+
+}
+.DirectOrders{
+    
+}
+.card{
+    background-image:url("../Images/upscaledslatenav.png");
+    width: 200px; height: 100px;
+    margin-left: 100px;
+}
+
+.cards{
+   margin-left: 40px;
+}
+
+#image{
+    width:300px;
+    height:300px;
+}

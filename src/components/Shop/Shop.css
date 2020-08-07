@@ -1,0 +1,122 @@
+.photo{
+    width: 300px !important;
+    height: 300px !important;
+    background-color: black;
+    border-style: inset;
+    border-color: goldenrod;
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+
+.price{
+    width: 300px !important;
+    height: 150px !important;
+    background-color:grey;
+    background-image: url("../Images/shopwidgetbackground.png");
+    border-style: inset;
+    border-color: goldenrod;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.gridspace{
+    width: 1150px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.row{
+    width: 1120px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.description{
+    margin-top: 0px;
+    color: goldenrod;
+    -webkit-text-stroke: .25px rgb(32, 32, 32);
+    font-size: 20px;
+    margin-left: 5px;
+}
+.shopwidget{
+    margin-top: 20px;
+}
+.dollars{
+    margin-left: 5px;
+    font-size: 40px;
+    margin-top: 0px;
+    color: goldenrod;
+    -webkit-text-stroke: .25px rgb(32, 32, 32);
+}
+@media only screen and (max-width: 1350px){
+    .gridspace{
+        margin-left:40px;
+    }
+    .price{
+
+        margin-left: 40px;
+    }
+
+    .photo{
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .gridspace{
+        margin-left: 40px;
+       
+    }
+
+    .price{
+
+        margin-left: 40px;
+    }
+
+    .photo{
+        margin-left: 40px;
+    }
+    
+}
+@media only screen and (max-width: 1024px){
+    .gridspace{
+        margin-left: 40px;
+        width: 800px;
+    }
+
+    .price{
+        transform: scale(.8);
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+
+    .photo{
+        transform: scale(.8);
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .gridspace{
+        margin-left: 40px;
+        width: 800px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .gridspace{
+        margin-left: 40px;
+        width: 600px;
+    }
+
+    .photo{
+        margin-left: 40px;
+    }
+
+    .price{
+        margin-left: 40px;
+    }
+}
+

@@ -1,0 +1,35 @@
+.Login{
+    height: 400px;
+    width: 500px;
+    background-color: grey;  
+    margin-left: 335px;
+    margin-top: 50px;
+    background-image: url("../Images/upscaledslatenav.png");
+    border-style: inset;
+    border-width: 5px;
+    border-color: goldenrod;
+    }
+    
+    .nameinput{
+     margin-top: 50px;  
+    
+    }
+    .passinput{
+        margin-top: 50px;
+    }
+    
+    input{
+        margin-left: -200px;
+        width: 400px;
+        height: 20px;
+        border-style: inset;
+        border-color: goldenrod;
+    }
+    .loginbtn{
+        width: 125px;
+        height: 62.5px;
+        margin-top: 0px;
+        margin-left: 80px;
+        border-style: inset;
+        border-color: goldenrod;
+    }
