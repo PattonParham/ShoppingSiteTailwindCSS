@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../styles/main.css";
 import "./Shop.css";
-// import { storage } from "../../firebase";
+import { storage } from "../../firebase";
 
 function Shop(){
     return(
