@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../styles/main.css";
 import "./Admin.css";
-import { storage } from "../../firebase";
+// import { storage } from "../../firebase";
 import {state, useState} from "react";
 
 function Admin(){
